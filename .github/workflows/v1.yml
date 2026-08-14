@@ -8,6 +8,13 @@ on:
         required: true
         description: The folder where the docker-compose.yaml is, i.e. `/home/deploy/<deploy-dir>/docker-compose.yaml`
         type: string
+      
+      # General
+      context-dir:
+        required: false
+        description: "The folder with the dockerfile. Use if not placed in the root directory. Prefix with `./`, e.g. `./website/`"
+        type: string
+        default: "."
 
       # Caching
       cache:
@@ -81,7 +88,7 @@ jobs:
         id: push
         uses: docker/build-push-action@v7
         with:
-          context: .
+          context: ${{ inputs.context-dir }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
