@@ -26,6 +26,6 @@ jobs:
 
 Replace `<deploy-dir>` with the directory on IN-SMN that the docker-compose.yaml is in. (i.e. `/home/deploy/<deploy-dir>/docker-compose.yaml`)¨
 
-For mor information on deployment, see [docs.kth.it](http://localhost:3000/docs/infrastructure/in-smn/docker#automatic-deployment).
+For mor information on deployment, see [docs.kth.it](https://docs.kth.it/docs/infrastructure/in-smn/docker#automatic-deployment).
 
-For a list of settings, see [configuring Andesite](http://localhost:3000/docs/infrastructure/in-smn/docker#configuring-andesite).
+For a list of settings, see [configuring Andesite](https://docs.kth.it/docs/infrastructure/in-smn/docker#configuring-andesite).
