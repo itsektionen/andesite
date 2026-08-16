@@ -28,4 +28,4 @@ Replace `<deploy-dir>` with the directory on IN-SMN that the docker-compose.yaml
 
 For mor information on deployment, see [docs.kth.it](https://docs.kth.it/docs/infrastructure/in-smn/containers#automatic-deployment).
 
-For a list of settings, see [configuring Andesite](https://docs.kth.it/docs/infrastructure/in-smn/docker#configuring-andesite).
+For a list of settings, see [configuring Andesite](https://docs.kth.it/docs/infrastructure/in-smn/containers#configuring-andesite).
