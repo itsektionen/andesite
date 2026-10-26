@@ -10,7 +10,7 @@ on:
         type: string
       deploy-with:
         required: false
-        type: boolean
+        type: string
         description: "Which method to use for deployment. Valid options: 'ssh', 'rhyolite', ''"
         default: "ssh"
 
